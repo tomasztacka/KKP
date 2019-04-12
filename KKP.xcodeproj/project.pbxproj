@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0505C044225E0F6D00F7740E /* BusStopPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0505C043225E0F6D00F7740E /* BusStopPlaces.swift */; };
 		058270BA224D58D7002F858A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058270B9224D58D7002F858A /* AppDelegate.swift */; };
-		058270BC224D58D7002F858A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058270BB224D58D7002F858A /* ViewController.swift */; };
 		058270BF224D58D7002F858A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058270BD224D58D7002F858A /* Main.storyboard */; };
 		058270C1224D58D7002F858A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058270C0224D58D7002F858A /* Assets.xcassets */; };
 		058270C4224D58D7002F858A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058270C2224D58D7002F858A /* LaunchScreen.storyboard */; };
+		058270CC224E5249002F858A /* PlaceLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058270CB224E5249002F858A /* PlaceLocations.swift */; };
+		05A088D3225BC63F00925418 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A088D2225BC63F00925418 /* ViewController.swift */; };
+		05A2CA23225D1C4B00EB8F88 /* chevron-flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 05A2CA22225D1C4B00EB8F88 /* chevron-flat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0505C043225E0F6D00F7740E /* BusStopPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopPlaces.swift; sourceTree = "<group>"; };
 		058270B6224D58D7002F858A /* KKP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058270B9224D58D7002F858A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		058270BB224D58D7002F858A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		058270BE224D58D7002F858A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		058270C0224D58D7002F858A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058270C3224D58D7002F858A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		058270C5224D58D7002F858A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058270CB224E5249002F858A /* PlaceLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceLocations.swift; sourceTree = "<group>"; };
+		05A088D2225BC63F00925418 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05A2CA22225D1C4B00EB8F88 /* chevron-flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chevron-flat.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		058270B8224D58D7002F858A /* KKP */ = {
 			isa = PBXGroup;
 			children = (
+				05A2CA22225D1C4B00EB8F88 /* chevron-flat.png */,
 				058270B9224D58D7002F858A /* AppDelegate.swift */,
-				058270BB224D58D7002F858A /* ViewController.swift */,
+				05A088D2225BC63F00925418 /* ViewController.swift */,
+				0505C043225E0F6D00F7740E /* BusStopPlaces.swift */,
 				058270BD224D58D7002F858A /* Main.storyboard */,
 				058270C0224D58D7002F858A /* Assets.xcassets */,
 				058270C2224D58D7002F858A /* LaunchScreen.storyboard */,
 				058270C5224D58D7002F858A /* Info.plist */,
+				058270CB224E5249002F858A /* PlaceLocations.swift */,
 			);
 			path = KKP;
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					058270B5224D58D7002F858A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -122,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05A2CA23225D1C4B00EB8F88 /* chevron-flat.png in Resources */,
 				058270C4224D58D7002F858A /* LaunchScreen.storyboard in Resources */,
 				058270C1224D58D7002F858A /* Assets.xcassets in Resources */,
 				058270BF224D58D7002F858A /* Main.storyboard in Resources */,
@@ -135,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058270BC224D58D7002F858A /* ViewController.swift in Sources */,
+				05A088D3225BC63F00925418 /* ViewController.swift in Sources */,
+				058270CC224E5249002F858A /* PlaceLocations.swift in Sources */,
+				0505C044225E0F6D00F7740E /* BusStopPlaces.swift in Sources */,
 				058270BA224D58D7002F858A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +304,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pl.sunwater.KKP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,7 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pl.sunwater.KKP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
