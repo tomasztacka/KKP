@@ -116,7 +116,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
            
            bikeCalloutView.widthAnchor.constraint(equalToConstant: 200).isActive = true
            bikeCalloutView.heightAnchor.constraint(equalToConstant: 100).isActive = true
-           bikeCalloutView.bottomAnchor.constraint(equalTo: view.topAnchor, constant: -25).isActive = true
+           bikeCalloutView.bottomAnchor.constraint(equalTo: view.topAnchor, constant: -40).isActive = true
            bikeCalloutView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
                 }
 
@@ -150,3 +150,5 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     }
     
 }
+
+// TT8s-MacBook-Pro:fiddler-mac-3 tt8$ mono --arch=32 Fiddler.exe 

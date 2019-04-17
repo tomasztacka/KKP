@@ -25,7 +25,7 @@ class BusStopPlaces: UIView {
         
         self.widthAnchor.constraint(equalToConstant: 240).isActive = true
         self.heightAnchor.constraint(equalToConstant: 160).isActive = true
-        self.bottomAnchor.constraint(equalTo: view.topAnchor, constant: -25).isActive = true
+        self.bottomAnchor.constraint(equalTo: view.topAnchor, constant: -40).isActive = true
         self.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         
     }
